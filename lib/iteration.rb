@@ -24,6 +24,15 @@ def find_greater_pair(src)
   # Produce a new Array that contains the larger number of each of the pairs
   # that are in the inner Arrays
   
+row_index = 0
+while row_index < src.count do
+  element_index = 0
+  while element_index < src[row_index].count do
+    puts src[row_index][element_index]
+    element_index += 1
+  end
+  row_index += 1
+end #=> nil
 end
 
 def total_even_pairs(src)
