@@ -16,6 +16,7 @@ while row_index < src.count do
   whoLovesToppings << sentence
   row_index += 1
 end
+
 whoLovesToppings
 end
 
