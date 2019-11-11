@@ -12,8 +12,7 @@ row_index = 0
 whoLovesToppings = []
 
 while row_index < src.count do
-  sentence = "I love " + src[row_index][0] + "and" + src[row_index][1] + "on my pizza"
-  whoLovesToppings << 
+  whoLovesToppings << "I love " + src[row_index][0] + "and" + src[row_index][1] + "on my pizza"
   row_index += 1
 end
 
