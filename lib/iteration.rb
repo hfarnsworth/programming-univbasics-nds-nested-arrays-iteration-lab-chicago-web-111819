@@ -9,13 +9,15 @@ def join_ingredients(src)
   
   
 row_index = 0
-whoLoveToppings = []
+whoLovesToppings = []
 
 while row_index < src.count do
   element_index = 0
   sentence = "I love " + src.[row_index][0] + "and" + src.[row_index][1] + "on my pizza"
-  end
+  whoLovesToppings << sentence
   row_index += 1
+end
+whoLovesToppings
 end
 
 def find_greater_pair(src)
